@@ -135,3 +135,9 @@ tsconfig.json
 # docs
 README.md
 LICENSE
+
+# storybook static output
+build/storybook
+
+# storybook setting files
+.storybook/
