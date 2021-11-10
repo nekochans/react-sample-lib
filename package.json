@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build:storybook": "rm -rf build && build-storybook -o build/storybook"
   },

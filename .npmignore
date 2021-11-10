@@ -141,3 +141,6 @@ build/storybook
 
 # storybook setting files
 .storybook/
+
+# JEST Mock
+__mocks__/
