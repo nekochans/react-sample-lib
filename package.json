@@ -7,6 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build:storybook": "rm -rf build && build-storybook -o build/storybook"
   },
@@ -34,8 +35,11 @@
     "@storybook/addon-links": "^6.3.12",
     "@storybook/addon-viewport": "^6.3.12",
     "@storybook/react": "^6.3.12",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
     "@types/react": "^17.0.33",
     "babel-loader": "^8.2.3",
+    "jest": "^27.3.1",
     "postcss": "^8.3.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -44,6 +48,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^27.0.7",
     "tslib": "^2.3.1",
     "typescript": "^4.4.4"
   },
